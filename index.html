@@ -119,5 +119,13 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
+	<script>
+		$('.collapse').on('show.bs.collapse', function() {
+			$(this).parent().find(".glyphicon-chevron-down").removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-up");
+		}).on('hide.bs.collapse', function() {
+			$(this).parent().find(".glyphicon-chevron-up").removeClass("glyphicon-chevron-up").addClass("glyphicon-chevron-down");
+		});
+	</script>
+
   </body>
 </html>
