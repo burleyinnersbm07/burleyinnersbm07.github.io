@@ -1,0 +1,156 @@
+/* Created by Brett Burley-Inners */
+
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: "Roboto Condensed", 'sans-serif';
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+/* TITLE */
+
+#buttonDiv {
+    bottom: 15px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+#title {
+    background-color: rgb(40, 40, 40);
+    border-bottom: solid 4px rgb(127, 196, 207);
+    margin: 0px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    position: relative;
+    width: 100%;
+
+}
+
+#title button {
+    background-color: rgb(40, 40, 40);
+    border: none;
+    border-bottom: 2px solid rgb(127, 196, 207);
+    color: rgb(127, 196, 207);
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 8px;
+    position: relative;
+    text-align: center;
+}
+
+#title button:focus {
+    outline: 0;
+}
+
+#title button.button.buttonActive {
+    border-bottom: 2px solid white;
+}
+
+#title h1 {
+    color: rgb(230, 230, 230);
+    font-family: 'Bree Serif', 'serif';
+    font-size: 5em;
+    height: 66%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 0px;
+    text-align: center;
+}
+
+.button {
+}
+
+/* CONTENT */
+
+#content {
+    padding-bottom: 50px;
+}
+
+.contentTitle {
+    text-align: center;
+}
+
+/* ABOUT */
+
+#about {
+    text-align: center;
+}
+
+/* SKILLS */
+
+#skills {
+    margin: 0 auto;
+}
+
+.skillsDiv {
+    margin: 0 auto;
+}
+
+.skillHeader {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#unusedData {
+    border-style: none;
+}
+
+#unusedData:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.skillsTable {
+    border-spacing: 70px 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skillsTable tr {
+    margin: 0 auto;
+}
+
+.skillsTable td {
+    border: solid 2px rgb(127, 196, 207);
+    height: 50px;
+    text-align: center;
+    width: 100px;
+}
+
+.skillsTable td:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+/* PROJECTS */
+
+#projects h4 {
+    text-align: center;
+}
+
+#projects p {
+    padding: 40px;
+    text-align: left;
+}
+
+/* FOOTER */
+
+#footer {
+    position: relative;
+}
+
+#socialDiv {
+    background-color: rgba(220, 220, 220, .70);
+    right: 5px;
+    bottom: 5px;
+    position: absolute;
+    text-align: center;
+}
+
+#socialDiv a {
+    background-color: rgba(220, 220, 220, 0.70);
+    padding-left: 10px;
+    padding-right: 10px;
+}
